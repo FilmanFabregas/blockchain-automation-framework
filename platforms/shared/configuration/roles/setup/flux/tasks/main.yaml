@@ -53,7 +53,7 @@
   tags:
     - flux
     - molecule-idempotence-notest
-
+    
 - name: Install flux for over ssh connection
   shell: |
     KUBECONFIG={{ kubeconfig_path }} kubectl create secret generic git-auth-{{ network.env.type }} --from-file=identity={{ git_key }} --namespace flux-{{ network.env.type }}
