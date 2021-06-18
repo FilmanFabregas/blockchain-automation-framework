@@ -8,7 +8,7 @@ metadata:
 spec:
   releaseName: supplychain-net-ca
   chart:
-    git: ssh://git@github.com/FilmanFabregas/blockchain-automation-framework.git
+    git: https://FilmanFabregas@github.com/FilmanFabregas/blockchain-automation-framework.git
     ref: local
     path: platforms/hyperledger-fabric/charts/ca    
   values:
